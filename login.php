@@ -1,4 +1,7 @@
-<?php ob_start(); ?>
+<?php ob_start(); 
+
+session_start();?>
+
 <form method="post" class="connexion" action='compte.php'>
 
     <h6 class="card-title">Connectez-vous</h6>

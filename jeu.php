@@ -1,4 +1,7 @@
-<?php ob_start(); ?>
+<?php ob_start(); 
+
+session_start();?>
+
 <form method="post" action='participer.php'>
   <div class="form-group" >
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email" name="mail">
