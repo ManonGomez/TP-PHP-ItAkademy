@@ -66,3 +66,39 @@ View the list of people participating in the game
 Modify the index.php page to put an account that tells how often the person to
 display the page.
 Add the link to the game.
+
+-------------------------------------------
+PT
+
+12. Calculator page.php
+Create the calculator.php page that contains a form to do the exercise:
+Calcul5.php
+Create a function that performs four basic math operations.
+The function must take three arguments - operation (string / character), value1 (number),
+value2 (number).
+The function must return the result of the numbers after the application of the chosen operation.
+(If you know how to use Ajax, then implement it in Ajax)
+
+13. disconnect
+Make the function to disconnect
+
+14. Menu
+Make a menu containing the following links:
+- home: index.php
+- Game: game.php
+- Login: login.php
+- Calculator: calculator.php
+If the person is connected (via login.php) add
+- search search.php
+- Participants Participants.php
+- Sign out
+- Do not display login
+
+14. Search engine
+Make a search.php page that contains
+A form
+GET method,
+An input to do the research
+Action: search.php
+A part that displays the result of the search: list of file names present in the
+participant directory starting with the word.
